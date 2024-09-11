@@ -12,10 +12,15 @@
 }
 
 @media screen and (max-width: 992px) {
-    
+    .HeroPage{
+        flex-direction: column-reverse;
+    }
 }
 
 @media screen and (max-width: 768px) {
+    .menu{
+        display: none;
+    }
    
 }
 
