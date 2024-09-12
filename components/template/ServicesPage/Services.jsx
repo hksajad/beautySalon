@@ -9,7 +9,7 @@ const Services = () => {
         <h6 className="text-[40px] text-[#ffffff0f] font-serif">SERVICES</h6>
       </div>
       <div className="content_service mt-12  m-auto ">
-        <div className="itemServices flex justify-center gap-14 text-center flex-wrap max-[768px]:gap-10">
+        <div className="itemServices flex justify-center gap-14 text-center flex-wrap max-[768px]:gap-4">
           <div className="boxServices">
             <div className="imgServices">
               <Image src="/Img/service1.png" width={74} height={74} />
@@ -52,7 +52,7 @@ const Services = () => {
           </div>
         </div>
         <div className="caption_services mt-20">
-          <p className="w-[448px] m-auto text-center text-[25px]">
+          <p className="w-[100%] m-auto text-center text-[25px] max-[768px]:px-5">
             برای داشتن روحیه عالی، ناخن های خود را درست کنید. لذت های ساده می
             توانند هفته شما را بسازند، نه فقط روز را
           </p>
