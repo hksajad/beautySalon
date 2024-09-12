@@ -5,10 +5,10 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  overflow: hidden;
 }
 html{
   scroll-behavior: smooth;
-  overflow-x: hidden;
 }
 body{
   background-image: url('/Img/Desktop\ -\ 2.png');
