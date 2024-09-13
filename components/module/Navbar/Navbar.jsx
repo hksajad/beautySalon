@@ -15,7 +15,7 @@ const Navbar = () => {
           <Link href="/">صفحه اصلی</Link>
         </li>
         <li className=" text-[20px]">
-          <Link href="/">درباره ما</Link>
+          <Link href="/">داستان ما</Link>
         </li>
         <li className=" text-[20px]">
           <Link href="/">خدمات</Link>
