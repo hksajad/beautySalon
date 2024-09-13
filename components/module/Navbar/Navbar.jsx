@@ -1,8 +1,12 @@
+"use client";
 import Image from "next/image";
 import Link from "next/link";
 import React from "react";
+import { useState } from "react";
 import { VscThreeBars } from "react-icons/vsc";
+import { FaRegTimesCircle } from "react-icons/fa";
 const Navbar = () => {
+  const [isOpen, setIsopen] = useState(false);
   return (
     <div className="navbarPage pt-5 flex justify-between  items-center flex-row-reverse max-[768px]:mx-4">
       {/* logo */}
@@ -10,23 +14,34 @@ const Navbar = () => {
         <Image src="/Img/logo.png" width={50} height={50} />
       </div>
       {/* menu */}
-      <ul className="menu flex items-center gap-10">
+      <ul
+        className={
+          isOpen
+            ? "menu flex gap-[43px] items-center flex-1 justify-start mr-5"
+            : "menu flex gap-[27px] items-center  mr-5 max-[768px]:hidden"
+        }
+      >
         <li className=" text-[20px]">
-          <Link href="/">صفحه اصلی</Link>
+          <Link href="/" className="link">صفحه اصلی</Link>
         </li>
         <li className=" text-[20px]">
-          <Link href="/">داستان ما</Link>
+          <Link href="/" className="link">داستان ما</Link>
         </li>
         <li className=" text-[20px]">
-          <Link href="/">خدمات</Link>
+          <Link href="/" className="link">خدمات</Link>
         </li>
         <li className=" text-[20px]">
-          <Link href="/">رزرو نوبت</Link>
+          <Link href="/" className="link">رزرو نوبت</Link>
         </li>
       </ul>
       {/* toggle menu */}
       <div className="toggle_menu hidden mr-4 text-[#ECD8BD] text-[30px] max-[768px]:flex max-[768px]:flex-1">
-        <VscThreeBars className="cursor-pointer"/>
+        <div
+          className="bt_menu cursor-pointer"
+          onClick={() => setIsopen(!isOpen)}
+        >
+          {isOpen ? <FaRegTimesCircle /> : <VscThreeBars />}
+        </div>
       </div>
       {/* login */}
       <div className="login_nav">

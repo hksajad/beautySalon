@@ -1,47 +1,49 @@
 @media (min-width: 1400px) {
-   
 }
 
 @media screen and (max-width: 1400px) {
-    
 }
 
-
 @media screen and (max-width: 1200px) {
-   
 }
 
 @media screen and (max-width: 992px) {
-    .HeroPage{
-        flex-direction: column-reverse;
-    }
+  .HeroPage {
+    flex-direction: column-reverse;
+  }
 }
 
 @media screen and (max-width: 768px) {
-    .menu{
-        display: none;
-    }
-    .border_follow{
-        width: 100%;
-        height: 20px;
-        margin-top: 40px;
-        margin-bottom: 40px;
-    }
-   
+  .menu {
+    position: absolute;
+    flex-direction: column;
+    top: 110px;
+    background-color: #ECD8BD;
+    width: 85%;
+    left: 0;
+    right: 0;
+    padding: 25px;
+    border-radius: 7px;
+    margin: 0 auto;
+  }
+  .menu li .link{
+    color: #252422;
+  }
+  .border_follow {
+    width: 100%;
+    height: 20px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+  }
 }
 
 @media screen and (max-width: 576px) {
-    
 }
 @media screen and (max-width: 460px) {
-    
 }
 
 @media screen and (max-width: 410px) {
-   
 }
 
 @media screen and (max-width: 350px) {
-
 }
-
