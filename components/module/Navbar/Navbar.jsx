@@ -25,7 +25,7 @@ const Navbar = () => {
           <Link href="/" className="link">صفحه اصلی</Link>
         </li>
         <li className=" text-[20px]">
-          <Link href="/" className="link">داستان ما</Link>
+          <Link href="/OurStory" className="link">داستان ما</Link>
         </li>
         <li className=" text-[20px]">
           <Link href="/" className="link">خدمات</Link>
