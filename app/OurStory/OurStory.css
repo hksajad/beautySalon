@@ -1,13 +1,13 @@
-.ourstory{
+.ourStory_main{
     width: 100%;
-    background-color: #ECD8BD;
+    background-color: #ecd8bdb6;
 }
-.ourstory ul li .link{
+.ourStory_main ul li .link{
     color: #252422;
 }
-.ourstory .toggle_menu,.ourstory .link_login-nav{
+.ourStory_main .toggle_menu,.ourstory .link_login-nav{
     color: #252422;
 }
-.ourstory .link_login-nav{
+.ourStory_main .link_login-nav{
     border-color: #252422;
 }

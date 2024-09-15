@@ -3,7 +3,7 @@ import React from "react";
 
 const AboutPage = () => {
   return (
-    <div className="AbouPage bg-[#ECD8BD] w-full  mt-32 rounded-[8px]">
+    <div className="AbouPage bg-[#ecd8bdb6] w-full  mt-32 rounded-[8px]">
       <div className="contentAboutPage flex justify-around items-center pt-5 pb-5 max-[992px]:flex-col">
         {/* img about */}
         <div className="imgAbout">
