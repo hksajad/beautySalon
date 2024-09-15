@@ -18,7 +18,7 @@
     position: absolute;
     flex-direction: column;
     top: 110px;
-    background-color: #ECD8BD;
+    background-color: #ecd8bd;
     width: 85%;
     left: 0;
     right: 0;
@@ -26,7 +26,7 @@
     border-radius: 7px;
     margin: 0 auto;
   }
-  .menu li .link{
+  .menu li .link {
     color: #252422;
   }
   .border_follow {
@@ -35,6 +35,8 @@
     margin-top: 40px;
     margin-bottom: 40px;
   }
+ 
+ 
 }
 
 @media screen and (max-width: 576px) {

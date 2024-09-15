@@ -1,0 +1,13 @@
+.ourstory{
+    width: 100%;
+    background-color: #ECD8BD;
+}
+.ourstory ul li .link{
+    color: #252422;
+}
+.ourstory .toggle_menu,.ourstory .link_login-nav{
+    color: #252422;
+}
+.ourstory .link_login-nav{
+    border-color: #252422;
+}

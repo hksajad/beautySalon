@@ -47,7 +47,7 @@ const Navbar = () => {
       <div className="login_nav">
         <Link
           href="/"
-          className="text-[#ECD8BD] border-2 rounded-[8px] px-4 py-2"
+          className="text-[#ECD8BD] border-2 rounded-[8px] px-4 py-2 link_login-nav"
         >
           تماس با ما
         </Link>
