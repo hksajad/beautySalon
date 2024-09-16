@@ -11,7 +11,7 @@ const ourstory = () => {
   //   {id:1,img:'/Img/mobile.png',title:'09162730644'}
   // ]
   return (
-    <div className="ourstory">
+    <div className="ourstory overflow-x-hidden">
       <div className="ourStory_main">
         <div className="container">
           <Navbar />
