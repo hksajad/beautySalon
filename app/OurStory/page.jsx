@@ -50,8 +50,8 @@ const ourstory = () => {
             {
               items_story.map((index) => (
                 <div className="box_story text-center m-5">
-                  <div className="img_storys-info"><Image src={index.img} width={140} height={140}/></div>
-                  <div className="title_story mt-2 text-[#ECD8BD]">{index.title}</div>
+                  <div className="img_storys-info" key={index.id}><Image src={index.img} width={140} height={140}/></div>
+                  <div className="title_story mt-2 text-[#ECD8BD]" key={index.id}>{index.title}</div>
                 </div>
               ))
             }
