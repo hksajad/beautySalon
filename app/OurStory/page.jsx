@@ -5,11 +5,11 @@ import Image from "next/image";
 import Footer from "@/components/module/Footer/Footer";
 
 const ourstory = () => {
-  const items_story=[
-    {id:1,img:'/Img/clock.png',title:'شنبه - پنچشنبه : 8 الی 20'},
-    {id:1,img:'/Img/location.png',title:'ایران ، کرمان'},
-    {id:1,img:'/Img/mobile.png',title:'09162730644'}
-  ]
+  // const items_story=[
+  //   {id:1,img:'/Img/clock.png',title:'شنبه - پنچشنبه : 8 الی 20'},
+  //   {id:1,img:'/Img/location.png',title:'ایران ، کرمان'},
+  //   {id:1,img:'/Img/mobile.png',title:'09162730644'}
+  // ]
   return (
     <div className="ourstory">
       <div className="ourStory_main">
@@ -45,7 +45,7 @@ const ourstory = () => {
       </div>
       <div className="container">
         {/* start info story */}
-        <div className="info_story mt-32 mb-32">
+        {/* <div className="info_story mt-32 mb-32">
           <div className="content_info-story flex justify-center items-center flex-wrap min-[768px]:gap-10">
             {
               items_story.map((index) => (
@@ -56,7 +56,7 @@ const ourstory = () => {
               ))
             }
           </div>
-        </div>
+        </div> */}
       </div>
       {/* footer */}
       <Footer/>
