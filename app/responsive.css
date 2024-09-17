@@ -8,35 +8,12 @@
 }
 
 @media screen and (max-width: 992px) {
-  .HeroPage {
-    flex-direction: column-reverse;
-  }
+  
 }
 
 @media screen and (max-width: 768px) {
-  .menu {
-    position: absolute;
-    flex-direction: column;
-    top: 110px;
-    background-color: #ecd8bd;
-    width: 85%;
-    left: 0;
-    right: 0;
-    padding: 25px;
-    border-radius: 7px;
-    margin: 0 auto;
-  }
-  .menu li .link {
-    color: #252422;
-  }
-  .border_follow {
-    width: 100%;
-    height: 20px;
-    margin-top: 40px;
-    margin-bottom: 40px;
-  }
-  .caption_services,.caption_story{
-    align-items: center;
+  .menu{
+    display: none;
   }
 }
 

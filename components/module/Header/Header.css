@@ -1,0 +1,13 @@
+.Header {
+  width: 100%;
+  min-height: 700px;
+  background-image: url("/Img/bg_homePage.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.Header .main_header {
+  width: 100%;
+  min-height: 700px;
+  background-image: url("/Img/right_frame.png");
+  backdrop-filter: blur(4px);
+}
