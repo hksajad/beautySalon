@@ -1,7 +1,0 @@
-.title_services::before{
-    content: "خدمات ما";
-    position: absolute;
-    color: #ecd8bd;
-    font-size: 40px;
-    font-weight: bold;
-}

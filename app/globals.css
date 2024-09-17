@@ -11,15 +11,5 @@ html{
   scroll-behavior: smooth;
 }
 body{
-  background-image: url('/Img/Desktop\ -\ 2.png');
-  width: 100%;
-  min-height: 100vh;
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-attachment:fixed ;
-  background-position: center;
   overflow-x: hidden;
-}
-h1,h2,h3,h4,h5,h6,span,p,li{
-  color: #ECD8BD;
 }
