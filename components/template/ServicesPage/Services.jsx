@@ -58,7 +58,7 @@ const Services = () => {
           </p>
         </div>
         <div className="login_services pt-10 flex justify-center">
-            <Link href="/" className="border-2 rounded-[8px] px-4 py-2 text-[#ECD8BD]">مشاهده خدمات</Link>
+            <Link href="/OurServices" className="border-2 rounded-[8px] px-4 py-2 text-[#ECD8BD]">مشاهده خدمات</Link>
         </div>
       </div>
     </div>

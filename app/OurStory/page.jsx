@@ -23,7 +23,7 @@ const ourstory = () => {
                 src="/Img/ourstory_img.png"
                 width={439}
                 height={439}
-                className="w-[400px] h-[300px]"
+                
               />
             </div>
             {/* caption_story */}

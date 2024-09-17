@@ -35,8 +35,9 @@
     margin-top: 40px;
     margin-bottom: 40px;
   }
- 
- 
+  .caption_services,.caption_story{
+    align-items: center;
+  }
 }
 
 @media screen and (max-width: 576px) {

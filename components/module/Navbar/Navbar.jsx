@@ -28,7 +28,7 @@ const Navbar = () => {
           <Link href="/OurStory" className="link">داستان ما</Link>
         </li>
         <li className=" text-[20px]">
-          <Link href="/" className="link">خدمات</Link>
+          <Link href="/OurServices" className="link">خدمات</Link>
         </li>
         <li className=" text-[20px]">
           <Link href="/" className="link">رزرو نوبت</Link>
