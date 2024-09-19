@@ -1,0 +1,6 @@
+.Time{
+    width: 100%;
+    background-image: url('/Img/time_bg.png');
+    background-size: cover;
+    background-position: center;
+}
