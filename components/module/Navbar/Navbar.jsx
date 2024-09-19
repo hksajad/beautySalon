@@ -17,7 +17,7 @@ const Navbar = () => {
             <Link href="/">خدمات</Link>
           </li>
           <li className="font-bold text-[20px]">
-            <Link href="/">رزرو نوبت</Link>
+            <Link href="/">تماس با ما</Link>
           </li>
         </ul>
         {/* togle menu */}

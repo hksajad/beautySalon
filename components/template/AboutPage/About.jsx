@@ -11,7 +11,7 @@ const About = () => {
           <Image src="/Img/img_About.png" width={600} height={700} className="max-[992px]:w-[350px] max-[768px]:hidden"/>
         </div>
         {/* caption about */}
-        <div className="caption_about w-[466px] flex flex-col m-auto max-[992px]:max-w-[360px] max-[768px]:px-3">
+        <div className="caption_about w-[466px] flex flex-col m-auto max-[992px]:max-w-[360px] max-[768px]:px-3 max-[768px]:max-w-[320px]">
           <h1 className="text-[#C19A5D] text-[30px] font-bold ">درباره ما</h1>
           <span className="text-[25px] pt-8 font-bold">
             ما داستان های شگفت انگیزی با مو تعریف می کنیم
