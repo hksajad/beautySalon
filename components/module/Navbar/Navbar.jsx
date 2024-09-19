@@ -7,16 +7,16 @@ const Navbar = () => {
       <div className="navbar flex justify-between items-center max-[768px]:px-5">
         {/* menu */}
         <ul className="menu flex items-center gap-11 ">
-          <li className="font-bold text-[20px]">
+          <li className="font-bold text-[20px] text-[#fff]">
             <Link href="/">صفحه اصلی</Link>
           </li>
-          <li className="font-bold text-[20px]">
+          <li className="font-bold text-[20px] text-[#fff]">
             <Link href="/">داستان ما</Link>
           </li>
-          <li className="font-bold text-[20px]">
+          <li className="font-bold text-[20px] text-[#fff]">
             <Link href="/">خدمات</Link>
           </li>
-          <li className="font-bold text-[20px]">
+          <li className="font-bold text-[20px] text-[#fff]">
             <Link href="/">تماس با ما</Link>
           </li>
         </ul>
@@ -26,7 +26,7 @@ const Navbar = () => {
         </div>
         {/* logo */}
         <div className="logo_nav ">
-          <h1 className="font-serif text-[25px] text-bold tracking-[2px]">
+          <h1 className="font-serif text-[25px] text-bold tracking-[2px] text-[#fff]">
             The perfect cut
           </h1>
         </div>

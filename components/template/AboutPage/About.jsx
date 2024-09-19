@@ -13,10 +13,10 @@ const About = () => {
         {/* caption about */}
         <div className="caption_about w-[466px] flex flex-col m-auto max-[992px]:max-w-[360px] max-[768px]:px-3 max-[768px]:max-w-[320px]">
           <h1 className="text-[#C19A5D] text-[30px] font-bold ">درباره ما</h1>
-          <span className="text-[25px] pt-8 font-bold">
+          <span className="text-[25px] pt-8 font-bold text-[#fff]">
             ما داستان های شگفت انگیزی با مو تعریف می کنیم
           </span>
-          <p className="pt-5 text-justify leading-[35px]">
+          <p className="pt-5 text-justify leading-[35px] text-[#fff]">
             آیا رویای موهای براق و سالمی دارید که به نظر عالی می آیند و در هر
             مناسبتی آماده به تکان دادن هستند؟ ما رویاهای شما را محقق خواهیم کرد.
           </p>
