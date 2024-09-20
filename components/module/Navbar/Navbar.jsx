@@ -22,7 +22,7 @@ const Navbar = () => {
             <Link href="/OurStory">درباره ما</Link>
           </li>
           <li className="font-bold text-[20px] text-[#fff]">
-            <Link href="/">خدمات</Link>
+            <Link href="/ServicesPage">خدمات</Link>
           </li>
           <li className="font-bold text-[20px] text-[#fff]">
             <Link href="/">تماس با ما</Link>

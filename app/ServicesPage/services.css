@@ -1,0 +1,16 @@
+.Services {
+    width: 100%;
+    min-height: 700px;
+    background-image: url("/Img/ImgServices.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .Services .main_Services {
+    width: 100%;
+    min-height: 700px;
+    background-image: url("/Img/right_frame.png");
+    backdrop-filter: blur(4px);
+  }
+  .Services .menu {
+    z-index: 1000;
+  }
