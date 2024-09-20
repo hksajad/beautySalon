@@ -8,14 +8,25 @@
 }
 
 @media screen and (max-width: 992px) {
-  
 }
 
 @media screen and (max-width: 768px) {
-  .menu{
-    display: none;
+  .menu {
+    position: fixed;
+    flex-direction: column;
+    top: 81px;
+    width: 100%;
+    padding: 30px;
+    max-width: 10;
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+    border-radius: 8px;
+    z-index: 1;
   }
- 
+  .menu li{
+    padding: 15px;
+  }
 }
 
 @media screen and (max-width: 576px) {

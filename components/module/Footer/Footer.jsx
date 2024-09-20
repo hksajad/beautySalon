@@ -11,7 +11,7 @@ const Footer = () => {
                 <p className='text-[#252525] font-bold text-[25px] pt-5'>سالن زیبایی نازگلین </p>
                 <div className="link_footer flex items-center gap-1 pt-10  justify-center ">
                     <h1 className='text-[#252525] font-bold text-[25px] max-[768px]:text-[17px]'>طراحی شده توسط</h1>
-                    <Link href="https://developmart.ir/" className="mt-3"><Image src="/Img/develop.png" width={200} height={150}/></Link>
+                    <Link href="https://developmart.ir/" className="mt-3"><Image src="/Img/develop.png" width={200} height={150} className='img_footer-logo'/></Link>
                 </div>
             </div>
         </div>

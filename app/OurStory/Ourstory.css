@@ -1,0 +1,43 @@
+.Ourstory {
+  width: 100%;
+  min-height: 700px;
+  background-image: url("/Img/ImgAbout.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.Ourstory .main_Ourstory {
+  width: 100%;
+  min-height: 700px;
+  background-image: url("/Img/right_frame.png");
+  backdrop-filter: blur(4px);
+}
+.main_Ourstory .menu {
+  z-index: 1000;
+}
+.img_insta{
+    display: block;
+    height: 317px;
+    width: 155px;
+    opacity: 1;
+    min-height: 317px;
+    min-width: 155px;
+    border-radius: 20px;
+    filter: none;
+    transform-origin: 77.5px 158.5px;
+    animation: 2s inamte infinite alternate;
+}
+@keyframes inamte{
+    from{transform: perspective(0px) translate3d(0px, 0px, 0px) rotate(-3deg);}
+    to{transform: perspective(600px) translate3d(0px, 0px, 0px) rotate(7deg);}
+}
+@media screen and (max-width: 768px){
+    @keyframes inamte{
+        from{transform: perspective(0px) translate3d(0px, 0px, 0px) rotate(-7deg);}
+        to{transform: perspective(600px) translate3d(0px, 0px, 0px) rotate(10deg);}
+    }
+}
+.OurstoryPage .Footer{
+  background-color: #25252538;
+  width: 100%;
+}
+
