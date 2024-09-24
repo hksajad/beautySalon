@@ -4,7 +4,7 @@ import Navbar from "@/components/module/Navbar/Navbar";
 import SparklesText from "@/components/magicui/sparkles-text";
 import Link from "next/link";
 import Image from "next/image";
-import Hair from "@/components/layout/Hair/Hair";
+
 const Services = () => {
   return (
     <div className="ServicesPage">
@@ -31,7 +31,18 @@ const Services = () => {
       </div>
       {/* title service content */}
       <div className="container">
-        <Hair/>
+        <div className="titleservisec text-[30px] font-bold mt-20 max-[768px]:text-center">
+          <h1>خدمات زیبایی <span className="text-[#c19a5d]">نازگلین </span></h1>
+        </div>
+        <div className="ContentServices mt-20 mb-20">
+          <div className="itemsServices flex justify-between items-center flex-wrap">
+            <div className="boxes_services">
+              <div className="img__services">
+                <Image src='/Img/eyebrow-treatment-.jpg' width={100} height={100} className="w-[350px] h-[400px] rounded-lg"/>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
   );

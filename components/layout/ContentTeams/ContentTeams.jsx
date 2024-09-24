@@ -43,7 +43,7 @@ const ContentTeams = () => {
             className="rounded-lg"
           />
           <h5 className="pt-5 font-bold text-[18px]">ریحانه جعفری</h5>
-          <h6 className="pt-3"><span className="text-[#c19a5d]">تخصص : </span>اپیلاسیون</h6>
+          <h6 className="pt-3"><span className="text-[#c19a5d]">تخصص : </span>پاک سازی</h6>
         </div>
         <div className="box_teams w-[300px] flex flex-col items-center">
           <Image
